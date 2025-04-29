@@ -6,19 +6,32 @@ public class MainApp {
 
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
+
             System.out.print("Operand pertama : ");
-            String op1 = sc.nextLine().trim();
+            String sA = sc.nextLine().trim();
 
             System.out.print("Operand kedua   : ");
-            String op2 = sc.nextLine().trim();
+            String sB = sc.nextLine().trim();
 
             System.out.print("Operator (+ - * /) : ");
-            String operator = sc.nextLine().trim();
+            String op = sc.nextLine().trim();
 
-            double result = Computation.compute(operator, op1, op2);
-            System.out.println("Hasil = " + result);
-        } catch (IllegalArgumentException ex) {
-            System.out.println("Error: " + ex.getMessage());
+            if (!Validator.validate(op, sA, sB)) {
+                switch (Validator.getError()) {
+                    case NON_NUMERIC   -> ResultPrinter.printNonNumericError();
+                    case OUT_OF_RANGE  -> ResultPrinter.printRangeError();
+                    case INVALID_OPERATOR -> ResultPrinter.printOperatorError();
+                    case DIVIDE_BY_ZERO   -> ResultPrinter.printDivisorError();
+                    default -> {} 
+                }
+                return;
+            }
+
+            double a = Double.parseDouble(sA);
+            double b = Double.parseDouble(sB);
+            double result = Computation.compute(op, a, b);
+
+            ResultPrinter.printResult(result);
         }
     }
 }

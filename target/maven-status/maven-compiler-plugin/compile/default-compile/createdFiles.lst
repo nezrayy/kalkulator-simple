@@ -1,6 +1,10 @@
 com\swt\operation\Division.class
-com\swt\operation\Multiplication.class
 com\swt\Computation.class
-com\swt\MainApp.class
 com\swt\operation\Addition.class
+com\swt\ResultPrinter.class
+com\swt\Validator$ErrorCode.class
+com\swt\MainApp$1.class
+com\swt\operation\Multiplication.class
+com\swt\MainApp.class
+com\swt\Validator.class
 com\swt\operation\Subtraction.class

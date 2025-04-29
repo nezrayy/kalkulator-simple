@@ -1,20 +1,18 @@
 package com.swt;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
-import org.junit.Test;
+public class AppTest {
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+    // Test untuk penjumlahan yang valid
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    @DisplayName("Test penjumlahan 5 + 3 menghasilkan 8.0")
+    public void testAddition() {
+        double a = Double.parseDouble("5");
+        double b = Double.parseDouble("3");
+        double result = Computation.compute("+", a, b);
+        assertEquals(8.0, result, "Penjumlahan 5 + 3 seharusnya menghasilkan 8.0");
     }
 }
