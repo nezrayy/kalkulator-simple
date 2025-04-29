@@ -1,25 +1,21 @@
-Aplikasi Kalkulator Sederhana
-Ini adalah aplikasi kalkulator sederhana yang diimplementasikan dengan Java. Aplikasi ini mendukung operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Aplikasi ini juga dilengkapi dengan validasi untuk memastikan input yang dimasukkan oleh pengguna valid (angka, dalam rentang yang benar, dll).
 
-Fitur:
-Penjumlahan: Menambahkan dua angka.
+# Aplikasi Kalkulator Sederhana
 
-Pengurangan: Mengurangi satu angka dari angka lainnya.
+Ini adalah aplikasi **kalkulator sederhana** yang diimplementasikan dengan Java. Aplikasi ini mendukung operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Aplikasi ini juga dilengkapi dengan validasi untuk memastikan input yang dimasukkan oleh pengguna valid (angka, dalam rentang yang benar, dll).
 
-Perkalian: Mengalikan dua angka.
+### Fitur:
+- **Penjumlahan**: Menambahkan dua angka.
+- **Pengurangan**: Mengurangi satu angka dari angka lainnya.
+- **Perkalian**: Mengalikan dua angka.
+- **Pembagian**: Membagi satu angka dengan angka lainnya (dengan penanganan kesalahan pembagian dengan nol).
+- **Validasi**: Memastikan input yang dimasukkan valid untuk angka, operator, dan rentang angka.
 
-Pembagian: Membagi satu angka dengan angka lainnya (dengan penanganan kesalahan pembagian dengan nol).
+### Teknologi:
+- **Java**: Versi 8 atau lebih baru
+- **JUnit 5**: Untuk pengujian unit
 
-Validasi: Memastikan input yang dimasukkan valid untuk angka, operator, dan rentang angka.
-
-Teknologi:
-Java: Versi 8 atau lebih baru
-
-JUnit 5: Untuk pengujian unit
-
-Struktur Proyek:
-css
-Copy
+### Struktur Proyek:
+```
 └── 📁src
     └── 📁main
         └── 📁java
@@ -39,73 +35,63 @@ Copy
             └── 📁com
                 └── 📁swt
                     └── AppTest.java
-Instalasi:
-Clone repository ini:
+```
 
-bash
-Copy
-git clone https://github.com/username/kalkulator-sederhana.git
-Pindah ke direktori proyek:
+### Instalasi:
 
-bash
-Copy
-cd kalkulator-sederhana
-Bangun proyek:
+1. **Clone** repository ini:
+   ```bash
+   git clone https://github.com/username/kalkulator-sederhana.git
+   ```
 
-Jika menggunakan Maven, jalankan perintah berikut untuk membangun dan mengemas aplikasi:
+2. Pindah ke direktori proyek:
+   ```bash
+   cd kalkulator-sederhana
+   ```
 
-bash
-Copy
-mvn clean package
-Jalankan aplikasi:
+3. **Bangun proyek**:
+   - Jika menggunakan Maven, jalankan perintah berikut untuk membangun dan mengemas aplikasi:
+     ```bash
+     mvn clean package
+     ```
 
-Setelah membangun proyek, jalankan aplikasi dengan perintah:
+4. **Jalankan aplikasi**:
+   - Setelah membangun proyek, jalankan aplikasi dengan perintah:
+     ```bash
+     java -jar target/kalkulator-sederhana-1.0-SNAPSHOT.jar
+     ```
 
-bash
-Copy
-java -jar target/kalkulator-sederhana-1.0-SNAPSHOT.jar
-Menjalankan Pengujian Unit:
+### Menjalankan Pengujian Unit:
+
 Untuk memastikan aplikasi berjalan dengan benar, kami telah menulis pengujian unit untuk berbagai fitur (seperti operasi aritmatika dan validasi). Untuk menjalankan pengujian:
 
-Menggunakan Maven:
+1. **Menggunakan Maven**:
+   ```bash
+   mvn test
+   ```
 
-bash
-Copy
-mvn test
-Pengujian terdapat di direktori src/test/java/com/swt, dengan kelas pengujian utama yaitu AppTest.java.
+2. Pengujian terdapat di direktori `src/test/java/com/swt`, dengan kelas pengujian utama yaitu `AppTest.java`.
 
-Logika Validasi:
+### Logika Validasi:
 Aplikasi memastikan validasi berikut sebelum melakukan perhitungan:
+- **Pengecekan Numerik**: Memastikan bahwa operand adalah angka yang valid.
+- **Pengecekan Rentang**: Memastikan bahwa operand berada dalam rentang yang valid antara `-32,768` hingga `32,767`.
+- **Pengecekan Operator**: Memastikan operator yang digunakan adalah salah satu dari `+`, `-`, `*`, `/`.
+- **Pengecekan Pembagi Nol**: Memastikan bahwa pembagian tidak terjadi jika pembaginya adalah nol.
 
-Pengecekan Numerik: Memastikan bahwa operand adalah angka yang valid.
+### Contoh Penggunaan:
+1. **Input**:
+   - Operand 1: `5`
+   - Operand 2: `3`
+   - Operator: `+`
 
-Pengecekan Rentang: Memastikan bahwa operand berada dalam rentang yang valid antara -32,768 hingga 32,767.
+   **Output**:
+   - `Hasil = 8.0`
 
-Pengecekan Operator: Memastikan operator yang digunakan adalah salah satu dari +, -, *, /.
+2. **Input**:
+   - Operand 1: `6`
+   - Operand 2: `0`
+   - Operator: `/`
 
-Pengecekan Pembagi Nol: Memastikan bahwa pembagian tidak terjadi jika pembaginya adalah nol.
-
-Contoh Penggunaan:
-Input:
-
-Operand 1: 5
-
-Operand 2: 3
-
-Operator: +
-
-Output:
-
-Hasil = 8.0
-
-Input:
-
-Operand 1: 6
-
-Operand 2: 0
-
-Operator: /
-
-Output:
-
-Error: Pembagi tidak boleh nol.
+   **Output**:
+   - `Error: Pembagi tidak boleh nol.`
