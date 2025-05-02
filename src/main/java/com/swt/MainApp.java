@@ -3,7 +3,6 @@ package com.swt;
 import java.util.Scanner;
 
 public class MainApp {
-
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 
@@ -17,13 +16,7 @@ public class MainApp {
             String op = sc.nextLine().trim();
 
             if (!Validator.validate(op, sA, sB)) {
-                switch (Validator.getError()) {
-                    case NON_NUMERIC   -> ResultPrinter.printNonNumericError();
-                    case OUT_OF_RANGE  -> ResultPrinter.printRangeError();
-                    case INVALID_OPERATOR -> ResultPrinter.printOperatorError();
-                    case DIVIDE_BY_ZERO   -> ResultPrinter.printDivisorError();
-                    default -> {} 
-                }
+                ResultPrinter.printError(Validator.getError());
                 return;
             }
 

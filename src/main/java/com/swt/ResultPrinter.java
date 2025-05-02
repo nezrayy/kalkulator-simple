@@ -1,23 +1,23 @@
 package com.swt;
 
+import com.swt.Validator.ErrorCode;
+
 public final class ResultPrinter {
 
     private ResultPrinter() {}
 
-    public static void printResult(double value) {
-        System.out.println("Hasil = " + value);
+    public static void printError(ErrorCode code) {
+        String msg = switch (code) {
+            case NON_NUMERIC      -> "Input bukan angka.";
+            case OUT_OF_RANGE     -> "Angka di luar rentang -32768 s.d. 32767.";
+            case INVALID_OPERATOR -> "Operator tidak valid. Gunakan +, -, *, /.";
+            case DIVIDE_BY_ZERO   -> "Pembagi tidak boleh nol.";
+            default               -> "Terjadi kesalahan tak terduga.";
+        };
+        System.out.println("Error: " + msg);
     }
 
-    public static void printNonNumericError() {
-        System.out.println("Input bukan angka.");
-    }
-    public static void printRangeError() {
-        System.out.println("Angka di luar rentang -32768 s.d. 32767.");
-    }
-    public static void printOperatorError() {
-        System.out.println("Operator tidak valid. Gunakan +, -, *, /.");
-    }
-    public static void printDivisorError() {
-        System.out.println("Pembagi tidak boleh nol.");
+    public static void printResult(double value) {
+        System.out.println("Hasil = " + value);
     }
 }
