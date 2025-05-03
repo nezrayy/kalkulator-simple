@@ -76,7 +76,7 @@ public class OperationTest {
         double a = 74.4;
         double b = -1.5;
         double result = Operation.multiplication(a, b);
-        Assert.assertEquals(result,-112.6,1e-9);    
+        Assert.assertEquals(result,-111.6,1e-9);    
     }
     
     @Test
