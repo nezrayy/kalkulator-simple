@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.969 s <<< FAILURE! - in TestSuite
+com.swt.OperationTest.mul_TC4_mixDec  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected [-112.6] but found [-111.60000000000001]
+	at com.swt.OperationTest.mul_TC4_mixDec(OperationTest.java:79)
+
