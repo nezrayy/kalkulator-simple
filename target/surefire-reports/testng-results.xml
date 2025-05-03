@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T17:13:53 WIB" name="Surefire suite" finished-at="2025-05-03T17:13:54 WIB" duration-ms="113">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T17:13:53 WIB" name="Surefire test" finished-at="2025-05-03T17:13:54 WIB" duration-ms="113">
+      <class name="com.swt.OperationTest">
+        <test-method signature="add_TC1_posInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="add_TC1_posInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_TC1_posInt -->
+        <test-method signature="add_TC2_negInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="add_TC2_negInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_TC2_negInt -->
+        <test-method signature="add_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="add_TC3_mixInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_TC3_mixInt -->
+        <test-method signature="add_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="add_TC4_mixDec" finished-at="2025-05-03T17:13:54 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_TC4_mixDec -->
+        <test-method signature="add_TC5_zero()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="add_TC5_zero" finished-at="2025-05-03T17:13:54 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_TC5_zero -->
+        <test-method signature="mul_TC1_posInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="mul_TC1_posInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC1_posInt -->
+        <test-method signature="mul_TC2_negInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="mul_TC2_negInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC2_negInt -->
+        <test-method signature="mul_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="mul_TC3_mixInt" finished-at="2025-05-03T17:13:54 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC3_mixInt -->
+        <test-method signature="mul_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="mul_TC4_mixDec" finished-at="2025-05-03T17:13:54 WIB" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-112.6] but found [-111.60000000000001]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-112.6] but found [-111.60000000000001]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEquals(Assert.java:698)
+at org.testng.Assert.assertEquals(Assert.java:711)
+at com.swt.OperationTest.mul_TC4_mixDec(OperationTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC4_mixDec -->
+        <test-method signature="mul_TC5_zero()[pri:0, instance:com.swt.OperationTest@1ffe63b9]" started-at="2025-05-03T17:13:54 WIB" name="mul_TC5_zero" finished-at="2025-05-03T17:13:54 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC5_zero -->
+      </class> <!-- com.swt.OperationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
