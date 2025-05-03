@@ -3,11 +3,12 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.swt.OperationTest">
+      <class name="com.swt.ValidatorTest">
         <methods>
-          <include name="mul_TC4_mixDec"/>
+          <include name="resetErrorField"/>
+          <include name="checkRange_TC5"/>
         </methods>
-      </class> <!-- com.swt.OperationTest -->
+      </class> <!-- com.swt.ValidatorTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

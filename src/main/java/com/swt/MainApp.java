@@ -3,6 +3,7 @@ package com.swt;
 import java.util.Scanner;
 
 public class MainApp {
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
 
@@ -15,7 +16,11 @@ public class MainApp {
             System.out.print("Operator (+ - * /) : ");
             String op = sc.nextLine().trim();
 
-            if (!Validator.validate(op, sA, sB)) {
+            if (!Validator.checkNumeric(sA, sB)   ||
+                !Validator.checkRange(sA, sB)     ||
+                !Validator.checkOperator(op)      ||
+                !Validator.checkDivisor(op, sB) ) {
+
                 ResultPrinter.printError(Validator.getError());
                 return;
             }

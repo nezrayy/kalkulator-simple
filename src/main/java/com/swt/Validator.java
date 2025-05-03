@@ -14,16 +14,7 @@ public final class Validator {
 
     private static ErrorCode error = ErrorCode.NONE;
 
-    public static boolean validate(String op, String sA, String sB) {
-        return  checkNumeric(sA, sB) &&
-                checkRange(sA, sB)   &&
-                checkOperator(op)    &&
-                checkDivisor(op, sB);
-    }
-
-    public static ErrorCode getError() { return error; }
-
-    private static boolean checkNumeric(String sA, String sB) {
+    public static boolean checkNumeric(String sA, String sB) {
         try {
             Double.parseDouble(sA);
             Double.parseDouble(sB);
@@ -34,7 +25,7 @@ public final class Validator {
         }
     }
 
-    private static boolean checkRange(String sA, String sB) {
+    public static boolean checkRange(String sA, String sB) {
         double a = Double.parseDouble(sA);
         double b = Double.parseDouble(sB);
         if (a < -32768 || a > 32767 || b < -32768 || b > 32767) {
@@ -44,7 +35,7 @@ public final class Validator {
         return true;
     }
 
-    private static boolean checkOperator(String op) {
+    public static boolean checkOperator(String op) {
         if (!op.equals("+") && !op.equals("-") && !op.equals("*") && !op.equals("/")) {
             error = ErrorCode.INVALID_OPERATOR;
             return false;
@@ -52,11 +43,14 @@ public final class Validator {
         return true;
     }
 
-    private static boolean checkDivisor(String op, String sB) {
+    public static boolean checkDivisor(String op, String sB) {
         if (op.equals("/") && Double.parseDouble(sB) == 0) {
             error = ErrorCode.DIVIDE_BY_ZERO;
             return false;
         }
         return true;
     }
+
+    public static ErrorCode getError()      { return error; }
+    static void resetError()                { error = ErrorCode.NONE; }
 }
