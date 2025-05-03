@@ -9,6 +9,7 @@ public class ValidatorTest {
     public void resetError() {
         Validator.resetError();
     }
+
     //Modul Validator.checkNumeric
 
     //Modul Validator.checkRange
@@ -41,7 +42,7 @@ public class ValidatorTest {
 
     @Test
     public void checkRange_TC4() {
-        String sA = "0";
+        String sA = "-2";
         String sB = "-32770";
         boolean result = Validator.checkRange(sA, sB);
         Assert.assertFalse(result);
@@ -58,7 +59,45 @@ public class ValidatorTest {
     }
     
     //Modul Validator.checkOperator
+    @Test
+    public void checkOperator_TC1() {
+        String op = "%";
+        boolean result = Validator.checkOperator(op);
+        Assert.assertFalse(result);
+        Assert.assertEquals(Validator.getError(), Validator.ErrorCode.INVALID_OPERATOR);
+    }
 
+    @Test
+    public void checkOperator_TC2() {
+        String op = "+";
+        boolean result = Validator.checkOperator(op);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.getError(), Validator.ErrorCode.NONE);
+    }
+
+    @Test
+    public void checkOperator_TC3() {
+        String op = "-";
+        boolean result = Validator.checkOperator(op);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.getError(), Validator.ErrorCode.NONE);
+    }
+
+    @Test
+    public void checkOperator_TC4() {
+        String op = "*";
+        boolean result = Validator.checkOperator(op);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.getError(), Validator.ErrorCode.NONE);
+    }
+
+    @Test
+    public void checkOperator_TC5() {
+        String op = "/";
+        boolean result = Validator.checkOperator(op);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.getError(), Validator.ErrorCode.NONE);
+    }
 
     //Modul Validator.checkDivisor
 }
