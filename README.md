@@ -114,13 +114,3 @@ Error: Pembagi tidak boleh nol.
 ```
 
 ---
-
-## 🤝 Kontribusi
-
-Pull‑request selalu diterima!  Pastikan `mvn verify` tetap hijau dan tambahkan test baru bila ada penambahan fitur.
-
----
-
-## Lisensi
-
-MIT © 2025 Your Name
