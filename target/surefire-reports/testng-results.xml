@@ -1,140 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+<testng-results ignored="0" total="49" passed="49" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T20:45:35 WIB" name="Surefire suite" finished-at="2025-05-03T20:45:35 WIB" duration-ms="134">
+  <suite started-at="2025-05-04T17:03:01 ICT" name="Surefire suite" finished-at="2025-05-04T17:03:01 ICT" duration-ms="129">
     <groups>
     </groups>
-    <test started-at="2025-05-03T20:45:35 WIB" name="Surefire test" finished-at="2025-05-03T20:45:35 WIB" duration-ms="134">
-      <class name="com.swt.ValidatorTest">
-        <test-method is-config="true" signature="resetErrorField()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="resetErrorField" finished-at="2025-05-03T20:45:35 WIB" duration-ms="8" status="PASS">
+    <test started-at="2025-05-04T17:03:01 ICT" name="Surefire test" finished-at="2025-05-04T17:03:01 ICT" duration-ms="129">
+      <class name="com.swt.AppTest">
+        <test-method is-config="true" signature="redirectStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="redirectStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resetErrorField -->
-        <test-method signature="checkRange_TC1()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="checkRange_TC1" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        </test-method> <!-- redirectStreams -->
+        <test-method signature="main_TC1()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="main_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_TC1 -->
+        <test-method is-config="true" signature="restoreStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="restoreStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreStreams -->
+        <test-method signature="main_TC2()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="main_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_TC2 -->
+        <test-method is-config="true" signature="redirectStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="redirectStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectStreams -->
+        <test-method is-config="true" signature="restoreStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="restoreStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreStreams -->
+        <test-method signature="main_TC3()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="main_TC3" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_TC3 -->
+        <test-method is-config="true" signature="redirectStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="redirectStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectStreams -->
+        <test-method is-config="true" signature="restoreStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="restoreStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreStreams -->
+        <test-method signature="main_TC4()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="main_TC4" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_TC4 -->
+        <test-method is-config="true" signature="redirectStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="redirectStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectStreams -->
+        <test-method is-config="true" signature="restoreStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="restoreStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreStreams -->
+        <test-method is-config="true" signature="redirectStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="redirectStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectStreams -->
+        <test-method signature="main_TC5()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="main_TC5" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main_TC5 -->
+        <test-method is-config="true" signature="restoreStreams()[pri:0, instance:com.swt.AppTest@2f7c2f4f]" started-at="2025-05-04T17:03:01 ICT" name="restoreStreams" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreStreams -->
+      </class> <!-- com.swt.AppTest -->
+      <class name="com.swt.ValidatorTest">
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkDivisor_TC1()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkDivisor_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivisor_TC1 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkDivisor_TC2()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkDivisor_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivisor_TC2 -->
+        <test-method signature="checkNumeric_TC1()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkNumeric_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumeric_TC1 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkNumeric_TC2()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkNumeric_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumeric_TC2 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkNumeric_TC3()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkNumeric_TC3" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumeric_TC3 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkOperator_TC1()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkOperator_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperator_TC1 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkOperator_TC2()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkOperator_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperator_TC2 -->
+        <test-method signature="checkOperator_TC3()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkOperator_TC3" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperator_TC3 -->
+        <test-method signature="checkOperator_TC4()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkOperator_TC4" finished-at="2025-05-04T17:03:01 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperator_TC4 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkOperator_TC5()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkOperator_TC5" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperator_TC5 -->
+        <test-method signature="checkRange_TC1()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkRange_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRange_TC1 -->
-        <test-method is-config="true" signature="resetErrorField()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="resetErrorField" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resetErrorField -->
-        <test-method signature="checkRange_TC2()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="checkRange_TC2" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        </test-method> <!-- resetError -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkRange_TC2()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkRange_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRange_TC2 -->
-        <test-method signature="checkRange_TC3()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="checkRange_TC3" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
+        <test-method signature="checkRange_TC3()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkRange_TC3" finished-at="2025-05-04T17:03:01 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRange_TC3 -->
-        <test-method is-config="true" signature="resetErrorField()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="resetErrorField" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resetErrorField -->
-        <test-method is-config="true" signature="resetErrorField()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="resetErrorField" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        </test-method> <!-- resetError -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resetErrorField -->
-        <test-method signature="checkRange_TC4()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="checkRange_TC4" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkRange_TC4 -->
-        <test-method signature="checkRange_TC5()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="checkRange_TC5" finished-at="2025-05-03T20:45:35 WIB" duration-ms="8" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [NONE] but found [OUT_OF_RANGE]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [NONE] but found [OUT_OF_RANGE]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:644)
-at com.swt.ValidatorTest.checkRange_TC5(ValidatorTest.java:57)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- resetError -->
+        <test-method signature="checkRange_TC5()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkRange_TC5" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRange_TC5 -->
-        <test-method is-config="true" signature="resetErrorField()[pri:0, instance:com.swt.ValidatorTest@3cc2931c]" started-at="2025-05-03T20:45:35 WIB" name="resetErrorField" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method signature="checkRange_TC4()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="checkRange_TC4" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resetErrorField -->
+        </test-method> <!-- checkRange_TC4 -->
+        <test-method is-config="true" signature="resetError()[pri:0, instance:com.swt.ValidatorTest@31d7b7bf]" started-at="2025-05-04T17:03:01 ICT" name="resetError" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetError -->
       </class> <!-- com.swt.ValidatorTest -->
+      <class name="com.swt.ResultPrinterTest">
+        <test-method signature="printError_TC1()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printError_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError_TC1 -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method signature="printError_TC2()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printError_TC2" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError_TC2 -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method signature="printError_TC3()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printError_TC3" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError_TC3 -->
+        <test-method signature="printError_TC4()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printError_TC4" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError_TC4 -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method signature="printError_TC5()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printError_TC5" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printError_TC5 -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method is-config="true" signature="redirectSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="redirectSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectSystemOut -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+        <test-method signature="printResult_TC1()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="printResult_TC1" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResult_TC1 -->
+        <test-method is-config="true" signature="restoreSystemOut()[pri:0, instance:com.swt.ResultPrinterTest@30ee2816]" started-at="2025-05-04T17:03:01 ICT" name="restoreSystemOut" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreSystemOut -->
+      </class> <!-- com.swt.ResultPrinterTest -->
       <class name="com.swt.OperationTest">
-        <test-method signature="add_TC1_posInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="add_TC1_posInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="11" status="PASS">
+        <test-method signature="add_TC1_posInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="add_TC1_posInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_TC1_posInt -->
-        <test-method signature="add_TC2_negInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="add_TC2_negInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        <test-method signature="add_TC2_negInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="add_TC2_negInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_TC2_negInt -->
-        <test-method signature="add_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="add_TC3_mixInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        <test-method signature="add_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="add_TC3_mixInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_TC3_mixInt -->
-        <test-method signature="add_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="add_TC4_mixDec" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method signature="add_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="add_TC4_mixDec" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_TC4_mixDec -->
-        <test-method signature="add_TC5_zero()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="add_TC5_zero" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        <test-method signature="add_TC5_zero()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="add_TC5_zero" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_TC5_zero -->
-        <test-method signature="mul_TC1_posInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="mul_TC1_posInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method signature="div_TC2_negInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC2_negInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC2_negInt -->
+        <test-method signature="div_TC1_posInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC1_posInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC1_posInt -->
+        <test-method signature="div_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC3_mixInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC3_mixInt -->
+        <test-method signature="div_TC4_posFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC4_posFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC4_posFloat -->
+        <test-method signature="div_TC5_negFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC5_negFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC5_negFloat -->
+        <test-method signature="mul_TC1_posInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="mul_TC1_posInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul_TC1_posInt -->
-        <test-method signature="mul_TC2_negInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="mul_TC2_negInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method signature="div_TC6_mixFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="div_TC6_mixFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div_TC6_mixFloat -->
+        <test-method signature="mul_TC2_negInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="mul_TC2_negInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul_TC2_negInt -->
-        <test-method signature="mul_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="mul_TC3_mixInt" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mul_TC3_mixInt -->
-        <test-method signature="mul_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="mul_TC4_mixDec" finished-at="2025-05-03T20:45:35 WIB" duration-ms="1" status="PASS">
+        <test-method signature="mul_TC4_mixDec()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="mul_TC4_mixDec" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul_TC4_mixDec -->
-        <test-method signature="mul_TC5_zero()[pri:0, instance:com.swt.OperationTest@1f0f1111]" started-at="2025-05-03T20:45:35 WIB" name="mul_TC5_zero" finished-at="2025-05-03T20:45:35 WIB" duration-ms="0" status="PASS">
+        <test-method signature="mul_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="mul_TC3_mixInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul_TC3_mixInt -->
+        <test-method signature="sub_TC1_posInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC1_posInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC1_posInt -->
+        <test-method signature="mul_TC5_zero()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="mul_TC5_zero" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul_TC5_zero -->
+        <test-method signature="sub_TC2_negInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC2_negInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC2_negInt -->
+        <test-method signature="sub_TC3_mixInt()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC3_mixInt" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC3_mixInt -->
+        <test-method signature="sub_TC4_posFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC4_posFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC4_posFloat -->
+        <test-method signature="sub_TC5_negFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC5_negFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC5_negFloat -->
+        <test-method signature="sub_TC6_mixFloat()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC6_mixFloat" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC6_mixFloat -->
+        <test-method signature="sub_TC7_zero()[pri:0, instance:com.swt.OperationTest@c267ef4]" started-at="2025-05-04T17:03:01 ICT" name="sub_TC7_zero" finished-at="2025-05-04T17:03:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_TC7_zero -->
       </class> <!-- com.swt.OperationTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

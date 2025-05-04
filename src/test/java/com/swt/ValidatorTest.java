@@ -11,6 +11,32 @@ public class ValidatorTest {
     }
 
     //Modul Validator.checkNumeric
+    @Test
+    public void checkNumeric_TC1() {
+        String sA = "12.5";
+        String sB = "7.0";
+        boolean result = Validator.checkNumeric(sA, sB);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.ErrorCode.NONE, Validator.getError());
+    }
+
+    @Test
+    public void checkNumeric_TC2() {
+        String sA = "10.0";
+        String sB = "abc";
+        boolean result = Validator.checkNumeric(sA, sB);
+        Assert.assertFalse(result);
+        Assert.assertEquals(Validator.ErrorCode.NON_NUMERIC, Validator.getError());
+    }
+
+    @Test
+    public void checkNumeric_TC3() {
+        String sA = "xyz";
+        String sB = "5.0";
+        boolean result = Validator.checkNumeric(sA, sB);
+        Assert.assertFalse(result);
+        Assert.assertEquals(Validator.ErrorCode.NON_NUMERIC, Validator.getError());
+    }
 
     //Modul Validator.checkRange
     @Test
@@ -100,4 +126,21 @@ public class ValidatorTest {
     }
 
     //Modul Validator.checkDivisor
+    @Test
+    public void checkDivisor_TC1() {
+        String op = "/";
+        String sB = "0";
+        boolean result = Validator.checkDivisor(op, sB);
+        Assert.assertFalse(result);
+        Assert.assertEquals(Validator.ErrorCode.DIVIDE_BY_ZERO, Validator.getError());
+    }
+
+    @Test
+    public void checkDivisor_TC2() {
+        String op = "/";
+        String sB = "10";
+        boolean result = Validator.checkDivisor(op, sB);
+        Assert.assertTrue(result);
+        Assert.assertEquals(Validator.ErrorCode.NONE, Validator.getError());
+    }
 }

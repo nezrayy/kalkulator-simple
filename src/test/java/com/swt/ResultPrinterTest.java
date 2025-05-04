@@ -71,4 +71,14 @@ public class ResultPrinterTest {
         Assert.assertEquals(output, "Error: Terjadi kesalahan tak terduga.");
     }
 
+    // Modul ResultPrinter.printResult
+
+    @Test
+    public void printResult_TC1() {
+        double value = 10.5;
+        ResultPrinter.printResult(value);
+
+        String output = capturer.toString().trim(); // trim untuk menghilangkan \n
+        Assert.assertEquals(output, "Hasil = 10.5");
+    }
 }
