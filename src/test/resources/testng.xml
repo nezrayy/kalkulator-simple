@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CalculatorUnitTests">
+  <test name="OperationModules">
+    <classes>
+      <class name="com.swt.OperationTest"/>
+    </classes>
+  </test>
+  <test name="ValidatorModules">
+    <classes>
+      <class name="com.swt.ValidatorTest"/>
+    </classes>
+  </test>
+  <test name="ComputationModule">
+    <classes>
+      <class name="com.swt.ComputationTest"/>
+    </classes>
+  </test>
+  <test name="ResultPrinterModules">
+    <classes>
+      <class name="com.swt.ResultPrinterTest"/>
+    </classes>
+  </test>
+  <test name="AppModule">
+    <classes>
+      <class name="com.swt.AppTest"/>
+    </classes>
+  </test>
+</suite>

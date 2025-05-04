@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 54, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.355 s - in TestSuite
+Tests run: 54, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.54 s <<< FAILURE! - in TestSuite
+com.swt.OperationTest.add_TC1_posInt  Time elapsed: 0.259 s  <<< FAILURE!
+java.lang.AssertionError: expected [163.0] but found [162.0]
+	at com.swt.OperationTest.add_TC1_posInt(OperationTest.java:14)
+

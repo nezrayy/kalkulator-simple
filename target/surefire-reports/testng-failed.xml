@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CalculatorUnitTests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="OperationModules(failed)" verbose="0">
+    <classes>
+      <class name="com.swt.OperationTest">
+        <methods>
+          <include name="add_TC1_posInt"/>
+        </methods>
+      </class> <!-- com.swt.OperationTest -->
+    </classes>
+  </test> <!-- OperationModules(failed) -->
+</suite> <!-- Failed suite [CalculatorUnitTests] -->

@@ -1,5 +1,5 @@
 com\swt\ResultPrinterTest.class
 com\swt\ValidatorTest.class
+com\swt\ComputationTest.class
 com\swt\AppTest.class
 com\swt\OperationTest.class
-com\swt\ComputationTest.class
