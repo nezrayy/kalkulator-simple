@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.93 s <<< FAILURE! - in TestSuite
-com.swt.ValidatorTest.checkRange_TC5  Time elapsed: 0.014 s  <<< FAILURE!
-java.lang.AssertionError: expected [NONE] but found [OUT_OF_RANGE]
-	at com.swt.ValidatorTest.checkRange_TC5(ValidatorTest.java:57)
-
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.007 s - in TestSuite
